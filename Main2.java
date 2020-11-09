@@ -45,7 +45,7 @@ public class Main2 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Var vänlig ange ett sökord här: ");
         String searchWord = scan.nextLine();
-        File startPoint = new File("C\\");
+        File startPoint = new File(".");
         ScanDirectory(startPoint, searchWord);
     }
 }
